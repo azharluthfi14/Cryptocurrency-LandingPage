@@ -1,0 +1,12 @@
+export { default as bitcoin } from "./bitcoin.png";
+export { default as share } from "./2share.png";
+export { default as btcasia } from "./btcasia.png";
+export { default as dogecoin } from "./dogecoin.png";
+export { default as ethereum } from "./ethereum.png";
+export { default as frog } from "./frog.png";
+export { default as metacraft } from "./metacraft.png";
+export { default as moonrock } from "./moonrock.png";
+export { default as muskdoge } from "./muskdoge.png";
+export { default as ninjafloki } from "./ninjafloki.png";
+export { default as pappay } from "./pappay.png";
+export { default as solana } from "./solana.png";
