@@ -1,0 +1,24 @@
+// Crypto
+export { default as bitcoin } from "./crypto/bitcoin.png";
+export { default as share } from "./crypto/2share.png";
+export { default as btcasia } from "./crypto/btcasia.png";
+export { default as dogecoin } from "./crypto/dogecoin.png";
+export { default as ethereum } from "./crypto/ethereum.png";
+export { default as frog } from "./crypto/frog.png";
+export { default as metacraft } from "./crypto/metacraft.png";
+export { default as moonrock } from "./crypto/moonrock.png";
+export { default as muskdoge } from "./crypto/muskdoge.png";
+export { default as ninjafloki } from "./crypto/ninjafloki.png";
+export { default as pappay } from "./crypto/pappay.png";
+export { default as solana } from "./crypto/solana.png";
+export { default as clever } from "./partner/clever.png";
+export { default as diamond } from "./partner/diamond.png";
+export { default as finance } from "./partner/finance.png";
+export { default as gambia } from "./partner/gambia.png";
+export { default as hero } from "./hero.png";
+export { default as credit } from "./credit.png";
+export { default as buy } from "./buy.png";
+export { default as usd } from "./usd.svg";
+export { default as tools } from "./tools.png";
+export { default as security } from "./security.png";
+export { default as asked } from "./asked.png";

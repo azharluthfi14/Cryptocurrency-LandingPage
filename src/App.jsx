@@ -1,15 +1,16 @@
 import React from 'react'
-import { Navbar } from './components'
-import { Hero, ListCrypto, BuyAndTrade } from './sections'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import IndexPage from './pages'
+import ErrorPage from './pages/ErrorPage'
 
 const App = () => {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <ListCrypto />
-      <BuyAndTrade />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<IndexPage />} />
+        <Route path="*" element={<ErrorPage />} />
+      </Routes>
+    </Router>
   )
 }
 
