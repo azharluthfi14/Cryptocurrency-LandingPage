@@ -4,14 +4,14 @@ import SelectForm from '../components/Form'
 
 const BuyAndTrade = () => {
     return (
-        <section className="pt-11">
-            <div className="flex flex-col md:justify-between">
-                <div>
-                    <h1 className="text-4xl font-semibold mb-6 leading-normal">
+        <section className="">
+            <div className="flex p-1 flex-col md:justify-between">
+                <div className='order-2'>
+                    <h1 className="text-xl font-semibold mb-3 leading-normal">
                         Buy & trade on the <br />
                         original crypto exchange.
                     </h1>
-                    <p className="text-sm text-gray-700 mb-6 leading-normal">
+                    <p className="text-xs text-gray-500 mb-6 leading-normal">
                         Buy now and get 40% extra bonus Minimum pre-sale amount <br />
                         25 Crypto Coin. We accept BTC crypto-currency
                     </p>
@@ -44,11 +44,17 @@ const BuyAndTrade = () => {
                                 </div>
                                 <SelectForm value="USD" />
                             </div>
+                            <button
+                                className="items-center mt-8 px-6 py-5 bg-blue-600 
+                        text-white w-full  text-sm leading-tight rounded-full hover:bg-blue-700 hover:shadow-lg"
+                            >
+                                Buy Now
+                            </button>
                         </form>
                     </div>
                 </div>
-                <div>
-                    <img draggable="false" className='object-cover w-[500px] h-[500px]' src={buy} alt="buy" />
+                <div className='flex justify-center items-center'>
+                    <img draggable="false" className='object-cover w-[350px] h-[350px]' src={buy} alt="buy" />
                 </div>
             </div>
         </section>
