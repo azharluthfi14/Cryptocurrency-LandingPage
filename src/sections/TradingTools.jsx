@@ -4,8 +4,8 @@ import { tools } from '../assets'
 export default function TradingTools() {
     return (
         <section className='bg-blue-50'>
-            <div className="container mx-auto py-20">
-                <div className="grid grid-cols-2 gap-20">
+            <div className="py-20">
+                <div className="grid grid-cols md:grid-cols-2 gap-20">
                     <div>
                         <h1 className='text-4xl mb-7 font-semibold'>Advanced Trading <span className='text-blue-500'>Tools</span></h1>
                         <div className="mb-6">

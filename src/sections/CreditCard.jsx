@@ -6,8 +6,8 @@ import { credit } from '../assets'
 export default function CreditCard() {
     return (
         <section>
-            <div className="container mx-auto py-20">
-                <div className="grid grid-cols-2 gap-x-48">
+            <div className="py-20">
+                <div className="grid grid-cols md:grid-cols-2 gap-x-48">
                     <div>
                         <img src={credit} alt="credit-image" />
                     </div>

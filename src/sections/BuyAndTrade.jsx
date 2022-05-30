@@ -4,8 +4,8 @@ import SelectForm from '../components/Form'
 
 const BuyAndTrade = () => {
     return (
-        <section className="container py-28 mx-auto h-screen">
-            <div className="flex justify-between">
+        <section className="pt-11">
+            <div className="flex flex-col md:justify-between">
                 <div>
                     <h1 className="text-4xl font-semibold mb-6 leading-normal">
                         Buy & trade on the <br />
@@ -18,22 +18,22 @@ const BuyAndTrade = () => {
                     <div>
                         <form>
                             <div className="flex justify-between gap-2 mb-7">
-                                <div className="border border-blue-500 rounded-2xl py-3 px-7 flex items-center">
-                                    <div className="border-r border-blue-500 pr-4 md:pr-6">
+                                <div className="border border-blue-500 rounded-2xl p-2 flex items-center">
+                                    <div className="border-r border-blue-500 pr-3 md:pr-6">
                                         <small className="text-blue-500">Amount</small>
                                     </div>
                                     <input
                                         type="text"
                                         placeholder="5,000"
-                                        className="text-right border-0 focus:border-0 focus:ring-0 focus:outline-none w-full"
+                                        className="text-right placeholder:text-sm border-0 focus:border-0 focus:ring-0 focus:outline-none w-full"
                                     />
                                 </div>
                                 <SelectForm value="BTC" />
                             </div>
 
                             <div className="flex justify-between gap-2">
-                                <div className="border border-blue-500 w-full rounded-2xl py-3 px-7 flex items-center">
-                                    <div className="border-r border-blue-500 pr-4 md:pr-14">
+                                <div className="border border-blue-500 w-full rounded-2xl p-2 flex items-center">
+                                    <div className="border-r border-blue-500 pr-10 md:pr-14">
                                         <small className="text-blue-500">Get</small>
                                     </div>
                                     <input

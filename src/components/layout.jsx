@@ -8,7 +8,7 @@ export default function LayoutPages({ children }) {
             <header>
                 <Navbar />
             </header>
-            <main>
+            <main className='mx-2 md:container md:mx-auto'>
                 {children}
             </main>
             <footer>

@@ -25,19 +25,19 @@ const SelectForm = ({ value = 'BTC' }) => {
 
     return (
         <div className='relative'>
-            <div onClick={() => setIsOpen(!isOpen)} className="border border-blue-500 cursor-pointer flex rounded-2xl py-5 px-6 items-center">
+            <div onClick={() => setIsOpen(!isOpen)} className="border border-blue-500 cursor-pointer text-sm flex rounded-2xl px-2 py-5 items-center">
                 <div className='w-[26px] pr-2'>
                     <img src={selectedValue.icon} alt={selectedValue.name} className="flex items-center" />
                 </div>
-                <span className='inline-block mr-2'>{selectedValue.name}</span>
+                <span className='inline-block text-sm mr-2'>{selectedValue.name}</span>
                 <BsChevronDown />
             </div>
 
-            <div className={`absolute top-full right-0 left-0 bg-white z-[2] rounded-xl mt-2 shadow-xl border border-primary overflow-hidden
+            <div className={`absolute top-full right-0 left-0 bg-white z-[2] rounded-xl mt-2 shadow-xl border border-blue-500 overflow-hidden
              ${isOpen ? "visible opacity-100" : 'invisible opacity-0'}`}>
                 <div>
                     {dataCoin.map((coin, i) => <div key={i} className={`
-                    py-2 flex items-center cursor-pointer hover:text-white select-none px-4 hover:bg-blue-300
+                    py-2 flex text-sm    items-center cursor-pointer hover:text-white select-none px-2 hover:bg-blue-300
                     ${coin.name === selectedValue.name ? 'bg-blue-500 text-white' : ''}`} onClick={() => onChangeHandler(coin)}>
                         <div className='h-[20px] aspect-square mr-4'>
                             <img src={coin.icon} alt={coin.name} className="flex items-center" />

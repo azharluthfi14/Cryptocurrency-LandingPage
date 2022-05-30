@@ -88,7 +88,7 @@ const recentlyCoins = [{
 
 const ListCrypto = () => {
     return (
-        <section className='relative container mx-auto'>
+        <section className='relative pb-20'>
             <div className="-mt-14 rounded-3xl bg-white py-8 px-4 shadow-lg">
                 <div className="grid md:grid-cols-2 xl:grid-cols-3">
                     <div className="px-4 mb-6 lg:mb-0">

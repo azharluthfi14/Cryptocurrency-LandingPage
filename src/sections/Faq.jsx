@@ -42,22 +42,24 @@ export default function Faq() {
     return (
         <section>
             <div className="container mx-auto py-20">
-                <div className="grid grid-cols-2 gap-20">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
                     <div>
                         <img src={asked} alt="asked-image" />
                     </div>
                     <div>
                         <h1>Support</h1>
-                        {faqs.map((item, i) =>
-                            <Accordion key={i}
-                                question={item.question}
-                                answered={item.answered}
-                                isShow={item.show}
-                                indexAnswered={item.indexA}
-                                indexQuestion={item.indexQ}
-                                isExpand={item.expand}
-                            />
-                        )}
+                        <div className="accordion" id="accordionFAQ">
+                            {faqs.map((item, i) =>
+                                <Accordion key={i}
+                                    question={item.question}
+                                    answered={item.answered}
+                                    isShow={item.show}
+                                    indexAnswered={item.indexA}
+                                    indexQuestion={item.indexQ}
+                                    isExpand={item.expand}
+                                />
+                            )}
+                        </div>
                     </div>
                 </div>
             </div>

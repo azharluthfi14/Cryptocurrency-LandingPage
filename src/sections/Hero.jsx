@@ -5,37 +5,39 @@ import { hero } from '../assets'
 const Hero = () => {
     return (
         <section id="hero">
-            <div className="container mx-auto h-screen items-center flex justify-between">
-                <div className="flex flex-col p-5 h-full justify-center">
+            <div className="h-screen items-center flex flex-col md:justify-between">
+                <div className="flex flex-col space-y-4 h-full justify-center text-center">
                     <h1 className="uppercase text-blue-500 text-sm font-bold">
                         Sign up today
                     </h1>
-                    <h2 className="text-5xl flex space-y-5 flex-col font-bold my-7">
+                    <h2 className="text-3xl flex flex-col font-bold">
                         <span>The World's</span>
                         <span className="text-blue-500">Fastest Growing</span>
                         <span>Crypto Web App</span>
                     </h2>
-                    <p className="text-sm text-gray-500 leading-loose">
+                    <p className="hidden md:block text-sm text-gray-500 leading-loose">
                         Buy and sell 200+ cryptocurrencies with 20+ flat currencies using
                         bank transfers or your credit/debit card.
                     </p>
-                    <div className="flex gap-x-3 mt-6">
+                    <div className="flex flex-col space-y-5 gap-x-3 mt-6">
                         <button
-                            className="inline-flex items-center px-6 py-3.5 bg-blue-600 
-                        text-white font-medium text-sm leading-tight rounded-full hover:bg-blue-700 hover:shadow-lg"
+                            className="items-center px-6 py-3.5 bg-blue-600 
+                        text-white font-medium text-base leading-tight rounded-full hover:bg-blue-700 hover:shadow-lg"
                         >
                             Get Started
                         </button>
                         <button
-                            className="inline-flex items-center px-6 py-3.5 border border-blue-500
-                        text-blue-500 font-medium text-sm leading-tight rounded-full hover:bg-black hover:bg-opacity-5"
+                            className="flex justify-center  text-center items-center px-6 py-3.5 border border-blue-500
+                        text-blue-500 font-medium text-base leading-tight rounded-full hover:bg-black hover:bg-opacity-5"
                         >
                             Download App
-                            <BsChevronDown className="ml-3 font-bold" />
+                            <span>
+                                <BsChevronDown className="ml-3 font-bold" />
+                            </span>
                         </button>
                     </div>
                 </div>
-                <div className="h-screen flex items-center relative">
+                <div className="hidden h-screen md:flex items-center relative">
                     <img
 
                         draggable="false"

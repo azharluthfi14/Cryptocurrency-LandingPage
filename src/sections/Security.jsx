@@ -5,8 +5,8 @@ import { BsCheckCircleFill } from 'react-icons/bs';
 export default function Security() {
     return (
         <section>
-            <div className="container mx-auto py-32">
-                <div className="grid grid-cols-2 gap-20">
+            <div className="py-32">
+                <div className="grid grid-cols md:grid-cols-2 gap-20">
                     <div>
                         <img src={security} alt="security-image" />
                     </div>
