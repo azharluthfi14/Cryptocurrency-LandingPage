@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 export default function LayoutPages({ children }) {
     return (
@@ -10,6 +11,9 @@ export default function LayoutPages({ children }) {
             <main>
                 {children}
             </main>
+            <footer>
+                <Footer />
+            </footer>
         </>
     )
 }

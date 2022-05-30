@@ -28,7 +28,7 @@ const BuyAndTrade = () => {
                                         className="text-right border-0 focus:border-0 focus:ring-0 focus:outline-none w-full"
                                     />
                                 </div>
-                                <SelectForm value="USD" />
+                                <SelectForm value="BTC" />
                             </div>
 
                             <div className="flex justify-between gap-2">

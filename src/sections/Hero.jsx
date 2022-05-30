@@ -4,7 +4,7 @@ import { hero } from '../assets'
 
 const Hero = () => {
     return (
-        <section id="hero" className='bg-blue-100'>
+        <section id="hero">
             <div className="container mx-auto h-screen items-center flex justify-between">
                 <div className="flex flex-col p-5 h-full justify-center">
                     <h1 className="uppercase text-blue-500 text-sm font-bold">

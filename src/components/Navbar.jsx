@@ -5,7 +5,7 @@ const Navbar = () => {
     const navLink = ['Cryptocurrency', 'Exchanges', 'Watchlist', 'NFT', 'Portofolio']
 
     return (
-        <nav className="w-full z-10 bg-blue-100 top-0 px-2 py-3.5">
+        <nav className="w-full z-10 top-0 px-2 py-3.5">
             <div className="container flex flex-wrap justify-between items-center mx-auto">
 
                 <a className="self-center text-xl font-black whitespace-nowrap" href="#">
