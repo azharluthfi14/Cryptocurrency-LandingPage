@@ -4,13 +4,13 @@ import { BsCheckCircleFill } from "react-icons/bs";
 
 export default function Security() {
   return (
-    <section>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
-        <div>
+    <section className="pt-28 md:mx-20">
+      <div className="flex justify-between items-center gap-10">
+        <div className="flex justify-center items-center w-full">
           <img src={security} alt="security-image" />
         </div>
-        <div>
-          <h2 className="font-bold text-3xl mb-6 leading-normal">
+        <div className="w-[75%]">
+          <h2 className="font-bold text-4xl mb-6 leading-normal">
             Industry-leading security from day one
           </h2>
           <ul className="my-6">
